@@ -1,0 +1,132 @@
+body{
+    background: #efeee4;
+    min-width: 995px !important;
+    margin: 0 auto;
+}
+
+header h1{
+    width:200px;
+    height: 120px;
+    float: left;
+}
+header nav .call{
+    text-align: right;
+    font-size: 24px;
+    color: #fff;
+    font-family: Georgia;
+    padding: 25px 50px 25px 0px;
+    margin-left: 70px;
+    background: url(../images/tel.png) center left no-repeat;
+
+}
+header nav{
+    width: 400px;
+    float: right;
+
+}
+header nav ul{
+    width: 100%;
+}
+header nav ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+header nav ul li a{
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: '黑体';
+    color: #FFFFFF;
+}
+header nav ul li a:hover{
+    color: #FFF;
+    background: #213548;
+}
+
+
+
+main{
+    min-height: 500px;
+}
+
+header,footer{
+    background: #273f56;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer{
+    background: #4A4849;
+}
+
+footer .info{
+    padding: 30px 0;
+    margin: 0;
+}
+
+#feature-0,#feature-2{
+    background: #FFF;
+}
+
+.threeways h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: '黑体';
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.threeways .list-unstyled {
+    color: #5c6166;
+}
+
+.threeways .list-unstyled>li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+.threeways .list-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+
+.f_red{
+    color: #d52c2a;
+}
+.bg_red{
+    background: #d52c2a;
+}
+
+.f_blue{
+    color: #308ee3;
+}
+.bg_blue {
+    background: #308ee3;
+}
+
+.f_org{
+    color: #ffb433;
+}
+.bg_org{
+    background: #ffb433;
+}
+
+.f_pur{
+    color: #7f64b5;
+}
+.bg_pur{
+    background: #7f64b5;
+}
